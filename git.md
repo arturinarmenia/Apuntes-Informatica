@@ -6,7 +6,7 @@ para crear un nuevo repositorio tenemos que usar el comando 'git init'
 en caso de tener ya creado un repositorio usaremos el comando 'git clone https://github.com/USUARIO/REPOSITORIO'
 ## add y commit
 son comandos de git, empezemos con el add, este comando es para añadir un archivo a git, es decir para que git sepa que ese archivo existe, para usarlo 'git add NOMBREDELARCHIVO'
-ahora vamos con el commit, el commit es para guardar los cambios realizados, y los guarda con un mensaje, se escribe asi 'git commit -a -u "MENSAJE"' en el mensaje pondremos nombre al commit para posteriormente reconocerlo
+ahora vamos con el commit, el commit es para guardar los cambios realizados, y los guarda con un mensaje, se escribe asi 'git commit -a -m "MENSAJE"' en el mensaje pondremos nombre al commit para posteriormente reconocerlo
 ## Push
 el comando push es para subir el ultimo commit realizado a github o bitbucket, se usa de la siguiente forma 'git push -u origin master' la parte de origin master es el servidor, es decir es el sitio donde lo va a subir.
 ### Nota
